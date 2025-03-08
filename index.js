@@ -140,5 +140,5 @@ async function createPlaylist(name, trackURIs) {
 // Start Express Server
 app.listen(port, () => {
   console.log(`Login at: http://localhost:${port}/login`);
-  //open(`http://localhost:${port}/login`); // Auto-open browser
+  open(`http://localhost:${port}/login`); // Auto-open browser
 });
